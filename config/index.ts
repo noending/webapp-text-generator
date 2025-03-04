@@ -5,10 +5,10 @@ export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
   title: 'Text Generator APP',
-  description: 'App description',
+  description: '我的dify聊天接口测试',
   copyright: '',
   privacy_policy: '',
-  default_language: 'en-US',
+  default_language: 'en-Hans',
 }
 
 export const API_PREFIX = '/api'
